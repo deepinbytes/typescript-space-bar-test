@@ -1,0 +1,19 @@
+{
+  "name": "coding-interview",
+  "version": "1.0.0",
+  "description": "Example for the coding interview",
+  "main": "src/index.js",
+  "author": "Burlet Mederic <mederic.burlet@pixiumdigital.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
